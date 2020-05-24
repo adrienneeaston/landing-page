@@ -1,3 +1,58 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
 body {
   background: green;
 }
+
+#nav-bar {
+  background-color: black;
+  color: white;
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+
+#nav-list {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+#sax li {
+  padding: 15px;
+}
+
+#sax {
+  list-style-type: circle;
+  background-color: white;
+}
+
+h1 {
+  background-color: blanchedalmond;
+}
+
+#video {
+  margin: 20px;
+}
+
+section {
+  text-align: center;
+  margin: 20px;
+}
+
+form {
+  margin: 20px;
+}
+
+a {
+  /* display: block;
+  padding: 10px; */
+
+}
+
+
