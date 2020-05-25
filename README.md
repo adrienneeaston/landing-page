@@ -12,6 +12,7 @@
 * CSS
 * Flexbox
 * Fixed nav bar
+* Anchor links
 * Embedded video
 * Media queries
 * Email form submitted to static page
