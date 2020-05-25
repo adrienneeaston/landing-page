@@ -10,7 +10,6 @@ body {
 
 #nav-bar {
   background-color: black;
-  color: white;
   position: fixed;
   top: 0;
   width: 100%
@@ -34,25 +33,52 @@ body {
 
 h1 {
   background-color: blanchedalmond;
+  margin-top: 60px;
+}
+
+h2 {
+  font-size: 22px;
+  margin: 20px;
+}
+
+h3 {
+  margin-top: 100px;
 }
 
 #video {
   margin: 20px;
+  display: block;
+  margin: auto;
+  width: 100%;
 }
 
 section {
-  text-align: center;
-  margin: 20px;
+  display: block;
+  margin: auto;
+  width: 50%;
 }
 
 form {
   margin: 20px;
 }
 
-a {
-  /* display: block;
-  padding: 10px; */
+#header-img {
+  width: 800px;
+  float: right;
+}
 
+@media (max-width: 1200px) {
+  #header-img {
+    float: none;
+    display: block;
+    margin: auto;
+    width: 80%;
+  }
+}
+
+a {
+color: white;
+text-decoration: none;
 }
 
 
